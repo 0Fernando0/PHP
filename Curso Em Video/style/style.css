@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+
+body{
+    background-image: linear-gradient(to top, purple,red);
+    background-attachment: fixed;
+}
+
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    border: 1px solid black;
+    border-radius: 10px;
+    width: max-content;
+    padding: 10px;
+    background-color: white;
+}

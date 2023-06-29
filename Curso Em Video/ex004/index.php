@@ -1,9 +1,12 @@
 <?php 
-    // VARIAVEIS
+
+    /* VARIAVEIS */
     $nome = "Fernando";
     $idade = 22;
 
-    // CONSTANTES
+    /* CONSTANTES */
     const SEXO = 'M';
     
+    $nomeCompletoCliente = "SNACK_CASE";
+
 ?>
