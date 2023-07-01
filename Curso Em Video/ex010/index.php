@@ -12,8 +12,10 @@
 
         <?php 
                         
-            $r = "1" + "2";
-            echo var_dump($r);
+            echo "1" + "2" . "<br>";
+            echo "1" - "2" . "<br>";
+            echo "1" / "2" . "<br>";
+            echo "1" * "2" . "<br>";
 
         ?>
 
