@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+body{
+    background-color: rgb(212, 57, 57);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    width: max-content;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 2;
+    
+}
+
+label{
+    background-color: cadetblue;
+    padding: 5px;
+    border-radius: 10px;
+}
