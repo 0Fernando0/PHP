@@ -19,8 +19,11 @@
         $x = $_GET["x"];
         $y = $_GET["y"];
         $soma = $x + $y;
-        
+        $valor_maximo = max($x,$y);
+        $valor_aleatorio = rand(0,10);
     ?>
     <p>a soma foi <?=$soma?></p>
+    <p>o valor máximo foi <?=$valor_maximo?></p>
+    <p> valor aleatorio foi <?=$valor_aleatorio?></p>
 </body>
 </html>
